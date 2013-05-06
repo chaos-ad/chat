@@ -1,0 +1,14 @@
+{application, chat, [
+    {description, ""},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        lager,
+        piqi,
+        gen_service
+    ]},
+    {mod, { chat_app, [] }},
+    {env, []}
+]}.
